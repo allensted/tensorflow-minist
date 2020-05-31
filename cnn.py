@@ -12,8 +12,7 @@ import tensorflow as tf
 from nn import X_train, X_test, X_validation, y_train, y_test, y_validation
 
 
-sess = tf.InteractiveSession()
-
+  sess = tf.InteractiveSession()
 
 # 初始化
 def weight_variable(shape):
